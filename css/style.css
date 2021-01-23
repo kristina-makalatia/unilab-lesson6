@@ -1,0 +1,129 @@
+.container {
+	width: 1088px;
+	margin: 0 auto;
+}
+.container-h3 {
+	font-family: 'Poppins', sans-serif;
+}
+.container-p {
+	font-family: 'Poppins-Bold';
+}
+.wraper-1 {
+	float: left;
+	margin-right: 16px;
+	width: 352px;
+	background: #F8F8F8;
+}
+.wraper-2 {
+	float: left;
+	margin-right: 16px;
+	width: 352px;
+	background: #F8F8F8;
+}
+.wraper-3 {
+	float: left;
+	width: 352px;
+	background: #F8F8F8;
+}
+.wraper-p {
+	width: 260px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+.wraper-container::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.wraper-h4,
+.wraper-h3 {
+	text-align: center;
+}
+
+body {
+	height: 1800px;
+	padding-top: 103px;
+}
+/*.section-2 {
+	margin-top:103px;
+}*/
+/*Header*/
+.logo-img{
+	height: 100px;
+}
+.logo {
+	float: left;
+}
+.navigation {
+	float: right;
+}
+.nav-li {
+	float: left;
+}
+.nav-ul::after {
+	content: '';
+	clear: left;
+	display: block;
+}
+.header-wraper {
+	background: grey;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index: 20;
+}
+
+/*Section#3*/
+.wraper-box {
+	width: 400px;
+	height: 400px;
+	background: lightblue;
+	position: relative;
+}
+.box-1 {
+	width: 150px;
+	height: 150px;
+	background: red;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+}
+.box-2 {
+	width: 150px;
+	height: 150px;
+	background: green;
+	position: absolute;
+	top:180px;
+	right: 50px;
+	z-index: 3;
+}
+.text-image {
+	position: absolute;
+	top:100px;
+	right: 15px;
+	color: red;
+}
+.wraper-image {
+	position: relative;
+	width: 550px;
+}
+.logo-on-image {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	height: 50px;
+}
+.chat-icon {
+	height: 80px;
+}
+.icon {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
